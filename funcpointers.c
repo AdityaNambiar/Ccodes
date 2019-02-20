@@ -16,3 +16,29 @@ int main(void) {
 	printf("%d",(*p)(2,3));
 	return 0;
 }
+
+/*
+#include <stdio.h>
+void greet(){
+	printf("Hello %s\n","name");
+}
+int main(int argv, char* argc){
+	int (*ptr)();
+	ptr = greet; // This and the line below this is COOL! (Because JS uses this <3)
+	ptr();
+	return 0;
+}
+*/
+
+/*
+#include <stdio.h>
+void greet(char* name){
+	printf("Hello %s\n",name);
+}
+int main(int argv, char* argc){
+	int (*ptr)(char*);
+	ptr = greet; // This and the line below this is COOL! (Because JS uses this <3)
+	ptr("Aditya");
+	return 0;
+}
+*/
