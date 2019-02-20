@@ -1,3 +1,7 @@
+/** https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_ 
+	^= BEST SOURCE FOR LEARNING C SPECIFIC MEMORY ADDRESSING 
+	YT channel: mycodeschool
+**/
 #include <stdio.h>
 int add(int a, int b){
 	return a+b;
