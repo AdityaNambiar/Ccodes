@@ -10,8 +10,8 @@ int mul(int a, int b){
 }
 int main(void) {
 	int (*p)(int,int);
-	p = &add;
-	p = &sub;
+	p = add;
+	p = sub;
 	p = &mul;
 	printf("%d",(*p)(2,3));
 	return 0;
